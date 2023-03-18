@@ -28,3 +28,27 @@ body {
     border-left: 30px solid #f1b500;
     border-radius: 50%;
 }
+
+.half {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-top: 30px solid transparent;
+    border-right: 30px solid #3a7cec;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid transparent;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.line {
+    width: 80px;
+    height: 30px;
+    background-color: #3a7cec;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    border-bottom-right-radius: 15px;
+}
